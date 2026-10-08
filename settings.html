@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Settings – JSVERSE</title>
+<meta name="author" content="Yousef Odeh">
+<meta name="description" content="JSVERSE is an interactive playground for learning JavaScript, the DOM and dataLayer tracking by running real code.">
+<meta name="theme-color" content="#08171F">
+<script>try{var q=new URLSearchParams(location.search).get('theme'),t=q||JSON.parse(localStorage.getItem('jsverse:theme')||'null');t={dark:'midnight',light:'studio'}[t]||t;if(['midnight','studio','arcade'].indexOf(t)<0)t=matchMedia('(prefers-color-scheme: light)').matches?'studio':'midnight';document.documentElement.dataset.theme=t;var s=JSON.parse(localStorage.getItem('jsverse:settings')||'{}');if(s.motion===false)document.documentElement.dataset.motion='off'}catch(e){document.documentElement.dataset.theme='midnight'}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main id="main" tabindex="-1"></main>
+<noscript><p style="padding:2rem;text-align:center">JSVERSE needs JavaScript to run its interactive lessons. Please enable it.</p></noscript>
+<script type="module" src="js/pages/settings.js"></script>
+</body>
+</html>
